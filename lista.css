@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+}
+
+#btn-enviar {
+  border: none;
+  background: none;
+  border: 1px solid black;
+  width: auto;
+  cursor: pointer;
+}
+#btn-enviar:hover {
+  background-color: green;
+  color: aliceblue;
+}
+#btn-enviar i {
+  font-size: 25px;
+  margin: 3px;
+}
+
+.btn-remover {
+  border: none;
+  color: red;
+  background: none;
+  cursor: pointer;
+  font-size: 20px;
+  display: block;
+  float: right;
+}
+
+#container {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#box {
+  width: auto;
+  padding: 10px;
+}
+
+#nav {
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+}
+
+.lista li {
+  border-bottom: 1px solid black;
+  padding: 5px;
+  list-style: none;
+  padding-left: 20px;
+}
+.normal::marker {
+  content: "•";
+  font-size: 40px;
+  list-style-position: inside;
+  color: black;
+}
+
+.verde::marker {
+  content: "•";
+  font-size: 40px;
+  list-style-position: inside;
+  color: green;
+}
+.amarelo::marker {
+  content: "•";
+  font-size: 40px;
+  list-style-position: inside;
+  color: #dcb307;
+}
+.vermelho::marker {
+  content: "•";
+  font-size: 40px;
+  list-style-position: inside;
+  color: red;
+}
+
+#inputValor {
+  height: 20px;
+}

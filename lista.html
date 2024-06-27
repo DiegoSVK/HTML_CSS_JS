@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="lista.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/all.min.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="box">
+        <h1>Todo List</h1>
+        <div id="nav">
+          <label>Adicionar tarefa:</label>
+          <input
+            id="inputValor"
+            type="text"
+            name="valor"
+            placeholder="Digite aqui"
+          />
+          <button id="btn-enviar" onclick="enviar()" type="submit">
+            <i class="fa-solid fa-plus"></i>
+          </button>
+          <form>
+            <label for="priority">Prioridade</label>
+            <select name="priority" id="priority">
+              <option value="Normal">Normal</option>
+              <option value="Alta">Alta</option>
+              <option value="Media">Media</option>
+              <option value="Baixa">Baixa</option>
+            </select>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="lista.js"></script>
+  </body>
+</html>
